@@ -91,18 +91,23 @@ This model provided the best score and accuracy of all the models with a value o
 
 Original data was not equally represented with 50% 'False Positives' , 25% 'CONFIRMED' and 24% 'CANDIDATE'. 
 
-!(koi_disposition)[Images/koi_disposition.png]
+![koi_disposition](Images/koi_disposition.png)
 
 SMOTE was done to make it balanced. 
 
-``` Confusion Matrix
+**COnfusion Matrix**
+
+```
 
 [[762 106   8]
  [ 84 787   5]
  [  1   0 875]]
 
 ```
-```Classification Report
+
+**Classification Report**
+
+```
                precision    recall  f1-score   support
 
      CANDIDATE       0.90      0.87      0.88       876
@@ -115,12 +120,11 @@ FALSE POSITIVE       0.99      1.00      0.99       876
 
 ```
 
-From the Classification report, an accuracy of 0.99 is seen  as 'FALSE POSITIVES' and 0.88 for 'CANDIDATE' and 0.89 for 'CONFIRMED' while predicting exoplanet objects.
+From the Classification report, an accuracy of 0.99 is seen for 'FALSE POSITIVES', 0.88 for 'CANDIDATE' and 0.89 for 'CONFIRMED' while predicting exoplanet objects.
 
-Given more time, more feature engineering could be done, and that might hopefully improve the accuracy.
+Given more time, more feature engineering could be performed that might hopefully improve the accuracy.
 
 Also, train and test ratio could be changed to see if any improvement in accuracy could be seen.
-
 
 
 ##### © 2019 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
