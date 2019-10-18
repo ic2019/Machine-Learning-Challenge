@@ -122,6 +122,8 @@ From the Classification report, an accuracy of 0.99 is seen for 'FALSE POSITIVES
 
 Given more time, more feature engineering could be performed that might hopefully improve the accuracy.
 
+Try models with different types of parameters.
+
 Also, train and test ratio could be changed to see if any improvement in accuracy could be seen.
 
 
