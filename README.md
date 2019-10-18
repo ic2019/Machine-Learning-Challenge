@@ -66,8 +66,6 @@ koi_disposition
 
 **FALSE POSITIVE** -While it has been estimated that 90% of the KOI transit candidates are true planets,[5] it is expected that some of the KOIs will be false positives, i.e., not actual transiting planets. The majority of these false positives are anticipated to be eclipsing binaries which, while spatially much more distant and thus dimmer than the foreground KOI, are too close to the KOI on the sky for the Kepler telescope to differentiate. On the other hand, statistical fluctuations in the data are expected to contribute less than one false positive event in the entire set of 150,000 stars being observed by Kepler.[2] [Courtsey Wikipedia](https://en.wikipedia.org/wiki/Kepler_object_of_interest)
 
-
-
 * Train and Test Data Split:
 
  Data was split with 70:30 ratio for train and test data for all models.
